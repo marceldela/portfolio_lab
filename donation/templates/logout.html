@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block extra_header %}{% endblock %}
+{% block headerclass %}{% endblock %}
+{% block content %}
+
+    <div class="content">
+        <div class="section-inner clearfix">
+
+            <p>Jesteś wylogowany <a href="{% url 'login' %}">Naciśnij tutaj</a> żeby się zalogować.</p>
+
+        </div>
+    </div>
+{% endblock %}
